@@ -338,11 +338,15 @@ var accelerate = function(amount){
 // needs to work like this:
 
 //     callLater(function(){
-//       ...
+//       console.log("hello");
 //     });
 
 var callLater = function(timeout, callback) {
+  if (callback == undefined){
+    setTimeout(timeout, 1000);
+  }else {
   setTimeout(callback, timeout);
+}
 };
 
 // Put your answer below -------------------------
