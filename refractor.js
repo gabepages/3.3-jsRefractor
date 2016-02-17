@@ -85,6 +85,10 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 
+// B!
+// The letter var is changed to "y" in the function and
+// then called every milisecond. then the letter var is changed to "z" and then
+// logged that is why it will be the 2nd number logged 
 
 // -----------------------------------------------
 
