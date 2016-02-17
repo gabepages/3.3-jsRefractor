@@ -148,7 +148,10 @@ var spanishColor = function(colorName) {
 
 // Put your answer below -------------------------
 
-
+var spanishColor = function(colorName) {
+  var colors = {rojo: "#ff0000", blanco: "#fffffff", azul: "#0000ff", verde: "#00ff00", negro: "#000000"};
+  return colors[colorName];
+}
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
