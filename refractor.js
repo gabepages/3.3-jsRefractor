@@ -292,7 +292,19 @@ var accelerate = function(amount) {
 
 // Put your answer below -------------------------
 
+///// if no param is given for amount then it will be undefined
+///// and undefined plus 0 is NaN
 
+var speed = 0;
+
+var accelerate = function(amount){
+  if (amount == undefined){
+    amount = 1;
+    return speed += amount;
+  }else{
+    return speed += amount;
+  }
+}
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
